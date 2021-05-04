@@ -1,0 +1,254 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=FinalProject
+
+[Library]
+FinalProject=.\FinalProject\FinalProject.lib
+
+[$LibMap$]
+FinalProject=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FAMILY=Quartus CycloneV
+SYNTH_TOOL=MV_QUARTUS_SYNTHESIS191
+RUN_MODE_SYNTH=1
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+IMPL_TOOL=
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+fileopenfolder=C:\Users\Alton\Desktop\SPRING21\ECE441\FinalProject123\ECE541FinalProject-master\FinalProject\synthesis\embedded_soc\synthesis\submodules
+SYNTH_STATUS=none
+IMPL_STATUS=none
+VerilogDirsChanged=0
+AccessACCB=1
+AccessACCR=1
+AccessReadTopLevel=0
+AccessRead=0
+AccessReadWrite=0
+AccessReadWriteSLP=0
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+
+[IMPLEMENTATION]
+UCF=
+DEVICE_TECHNOLOGY_MIGRATION_LIST=
+LAST_RUN=1619978002
+
+[SYNTHESIS]
+FAMILY=Quartus CycloneV
+DEVICE=5CSXFC6D6F31C
+SPEED=6
+TOPLEVEL=FinalProject
+JOB_DESCRIPTION=SynthesisTask
+JOB_SFM_RESOURCE=
+ENABLE_SIGNALTAP=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=
+OVERWRITE_PROJECT=1
+AUTO_CLOSE=0
+QSF_FILE_SELECTION=synthesis/FinalProject.qsf
+CHECK_PROJECT_OUTPUT_DIRECTORY=0
+CHECK_OPTIMIZE_HOLD_TIMING=1
+USE_SIGNALTAP_FILE=
+ENABLE_LOGIC_ANALYZER_INTERFACE=0
+USE_LOGIC_ANALYZER_INTERFACE_FILE=
+OLD_FAMILY=Quartus CycloneV
+CHECK_IMPORT_PIN_ASSIGNMENTS=1
+IMPORT_PIN_ASSIGNMENTS=.\my_first_fpga.qsf
+CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
+GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
+BTM_IO_STANDARD=1.2V
+DEFAULT_QUARTUS_SETTINGS_FILE=..\..\..\intelFPGA_lite\19.1\quartus\bin64\assignment_defaults.qdf
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
+LAST_RUN=1619978002
+
+[Groups]
+MEGA=1
+Test=1
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Common.vhd=-1
+/EuclideanDistance.vhd=-1
+/IrisDataManager.vhd=-1
+/FinalProject.vhd=-1
+/sqrt_tb.asdb=-1
+/sqrt_tb.awc=-1
+/irisdatamanager_tb.asdb=-1
+/irisdatamanager_tb.awc=-1
+/euclideandistance_tb.asdb=-1
+/euclideandistance_tb.awc=-1
+/knn_class.vhd=-1
+/knn.asdb=-1
+/knn.awc=-1
+/classifer.vhd=-1
+/classifier.asdb=-1
+/classifier.awc=-1
+/FinalClassification.asdb=-1
+/FinalClassification.awc=-1
+/embedded_soc.vhd=-1
+/embedded_soc_bb.v=-1
+/altera_avalon_sc_fifo.v=-1
+/altera_merlin_arbitrator.sv=-1
+/altera_merlin_burst_uncompressor.sv=-1
+/altera_merlin_master_agent.sv=-1
+/altera_merlin_master_translator.sv=-1
+/altera_merlin_slave_agent.sv=-1
+/altera_merlin_slave_translator.sv=-1
+/altera_reset_controller.sdc=-1
+/altera_reset_controller.v=-1
+/altera_reset_synchronizer.v=-1
+/embedded_soc_irq_mapper.sv=-1
+/embedded_soc_jtag_uart_0.v=-1
+/embedded_soc_mm_interconnect_0.v=-1
+/embedded_soc_mm_interconnect_0_avalon_st_adapter.v=-1
+/embedded_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv=-1
+/embedded_soc_mm_interconnect_0_cmd_demux.sv=-1
+/embedded_soc_mm_interconnect_0_cmd_demux_001.sv=-1
+/embedded_soc_mm_interconnect_0_cmd_mux.sv=-1
+/embedded_soc_mm_interconnect_0_cmd_mux_001.sv=-1
+/embedded_soc_mm_interconnect_0_router.sv=-1
+/embedded_soc_mm_interconnect_0_router_001.sv=-1
+/embedded_soc_mm_interconnect_0_router_002.sv=-1
+/embedded_soc_mm_interconnect_0_router_003.sv=-1
+/embedded_soc_mm_interconnect_0_rsp_demux.sv=-1
+/embedded_soc_mm_interconnect_0_rsp_mux.sv=-1
+/embedded_soc_mm_interconnect_0_rsp_mux_001.sv=-1
+/embedded_soc_nios2_gen2_0.v=-1
+/embedded_soc_nios2_gen2_0_cpu.sdc=-1
+/embedded_soc_nios2_gen2_0_cpu.v=-1
+/embedded_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v=-1
+/embedded_soc_nios2_gen2_0_cpu_debug_slave_tck.v=-1
+/embedded_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v=-1
+/embedded_soc_nios2_gen2_0_cpu_ociram_default_contents.mif=-1
+/embedded_soc_nios2_gen2_0_cpu_rf_ram_a.mif=-1
+/embedded_soc_nios2_gen2_0_cpu_rf_ram_b.mif=-1
+/embedded_soc_nios2_gen2_0_cpu_test_bench.v=-1
+/embedded_soc_onchip_memory2_0.v=-1
+/embedded_soc_pio_0.v=-1
+/embedded_soc_pio_1.v=-1
+/embedded_soc_pio_2.v=-1
+/embedded_soc_pio_3.v=-1
+/embedded_soc_pio_4.v=-1
+MEGA/..\..\MEGA\sqrt.vhd=-1
+MEGA/..\..\MEGA\sqrt_inst.vhd=-1
+MEGA/..\..\MEGA\sqrt.cmp=-1
+Test/euclideandistance_TB.vhd=-1
+Test/irisdatamanager_TB.vhd=-1
+Test/sqrt_TB.vhd=-1
+Test/euclideandistance_TB_runtest.do=-1
+Test/irisdatamanager_TB_runtest.do=-1
+Test/sqrt_TB_runtest.do=-1
+Test/finalproject_TB.vhd=-1
+Test/finalproject_TB_runtest.do=-1
+TestBench/knn_class_TB.vhd=-1
+TestBench/knn_class_TB_runtest.do=-1
+TestBench/classifier_TB.vhd=-1
+TestBench/classifier_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Common.vhd=VHDL Source Code
+.\src\EuclideanDistance.vhd=VHDL Source Code
+.\src\IrisDataManager.vhd=VHDL Source Code
+.\src\FinalProject.vhd=VHDL Source Code
+.\src\sqrt_tb.asdb=Accelerated Waveform File
+.\src\sqrt_tb.awc=Accelerated Waveform Configuration
+.\src\irisdatamanager_tb.asdb=Accelerated Waveform File
+.\src\irisdatamanager_tb.awc=Accelerated Waveform Configuration
+.\src\euclideandistance_tb.asdb=Accelerated Waveform File
+.\src\euclideandistance_tb.awc=Accelerated Waveform Configuration
+.\src\knn_class.vhd=VHDL Source Code
+.\src\knn.asdb=Accelerated Waveform File
+.\src\knn.awc=Accelerated Waveform Configuration
+.\src\classifer.vhd=VHDL Source Code
+.\src\classifier.asdb=Accelerated Waveform File
+.\src\classifier.awc=Accelerated Waveform Configuration
+.\src\FinalClassification.asdb=Accelerated Waveform File
+.\src\FinalClassification.awc=Accelerated Waveform Configuration
+.\src\embedded_soc.vhd=VHDL Source Code
+.\src\embedded_soc_bb.v=Verilog Source Code
+.\src\altera_avalon_sc_fifo.v=Verilog Source Code
+.\src\altera_merlin_arbitrator.sv=SystemVerilog Source Code
+.\src\altera_merlin_burst_uncompressor.sv=SystemVerilog Source Code
+.\src\altera_merlin_master_agent.sv=SystemVerilog Source Code
+.\src\altera_merlin_master_translator.sv=SystemVerilog Source Code
+.\src\altera_merlin_slave_agent.sv=SystemVerilog Source Code
+.\src\altera_merlin_slave_translator.sv=SystemVerilog Source Code
+.\src\altera_reset_controller.sdc=External File
+.\src\altera_reset_controller.v=Verilog Source Code
+.\src\altera_reset_synchronizer.v=Verilog Source Code
+.\src\embedded_soc_irq_mapper.sv=SystemVerilog Source Code
+.\src\embedded_soc_jtag_uart_0.v=Verilog Source Code
+.\src\embedded_soc_mm_interconnect_0.v=Verilog Source Code
+.\src\embedded_soc_mm_interconnect_0_avalon_st_adapter.v=Verilog Source Code
+.\src\embedded_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_cmd_demux.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_cmd_demux_001.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_cmd_mux.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_cmd_mux_001.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_router.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_router_001.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_router_002.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_router_003.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_rsp_demux.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_rsp_mux.sv=SystemVerilog Source Code
+.\src\embedded_soc_mm_interconnect_0_rsp_mux_001.sv=SystemVerilog Source Code
+.\src\embedded_soc_nios2_gen2_0.v=Verilog Source Code
+.\src\embedded_soc_nios2_gen2_0_cpu.sdc=External File
+.\src\embedded_soc_nios2_gen2_0_cpu.v=Verilog Source Code
+.\src\embedded_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v=Verilog Source Code
+.\src\embedded_soc_nios2_gen2_0_cpu_debug_slave_tck.v=Verilog Source Code
+.\src\embedded_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v=Verilog Source Code
+.\src\embedded_soc_nios2_gen2_0_cpu_ociram_default_contents.mif=Memory File
+.\src\embedded_soc_nios2_gen2_0_cpu_rf_ram_a.mif=Memory File
+.\src\embedded_soc_nios2_gen2_0_cpu_rf_ram_b.mif=Memory File
+.\src\embedded_soc_nios2_gen2_0_cpu_test_bench.v=Verilog Source Code
+.\src\embedded_soc_onchip_memory2_0.v=Verilog Source Code
+.\src\embedded_soc_pio_0.v=Verilog Source Code
+.\src\embedded_soc_pio_1.v=Verilog Source Code
+.\src\embedded_soc_pio_2.v=Verilog Source Code
+.\src\embedded_soc_pio_3.v=Verilog Source Code
+.\src\embedded_soc_pio_4.v=Verilog Source Code
+.\MEGA\sqrt.vhd=VHDL SOURCE CODE
+.\MEGA\sqrt_inst.vhd=VHDL SOURCE CODE
+.\MEGA\sqrt.cmp=EXTERNAL FILE
+.\src\Test\euclideandistance_TB.vhd=VHDL Test Bench
+.\src\Test\irisdatamanager_TB.vhd=VHDL Test Bench
+.\src\Test\sqrt_TB.vhd=VHDL Test Bench
+.\src\Test\euclideandistance_TB_runtest.do=Macro
+.\src\Test\irisdatamanager_TB_runtest.do=Macro
+.\src\Test\sqrt_TB_runtest.do=Macro
+.\src\Test\finalproject_TB.vhd=VHDL Test Bench
+.\src\Test\finalproject_TB_runtest.do=Macro
+.\src\TestBench\knn_class_TB.vhd=VHDL Test Bench
+.\src\TestBench\knn_class_TB_runtest.do=Macro
+.\src\TestBench\classifier_TB.vhd=VHDL Test Bench
+.\src\TestBench\classifier_TB_runtest.do=Macro
+
